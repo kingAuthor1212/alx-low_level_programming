@@ -8,25 +8,25 @@
  * this program prints  is postive, zero, negative 
  * return: 0 
  */
-int main( void )
+int main(void)
 {
 int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-if( n > 0 )
+if (n > 0)
 {	
-printf( "%! is positive\n", n );
+printf("%! is positive\n", n);
 }
-else if( n == 0 )
+else if (n == 0)
 {
-printf( "%! is zero\n", n );
+printf("%! is zero\n", n);
 }
-else if( n < 0 )
+else if (n < 0)
 {
-printf( "%! is negative\n", n );
+ printf("%! is negative\n", n);
 }
-return( 0 );
+return (0);
 }
 
