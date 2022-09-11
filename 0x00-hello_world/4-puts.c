@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * print (Programming is like building a multilingual puzzle) using main Function
  */
