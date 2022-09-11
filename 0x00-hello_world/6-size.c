@@ -2,7 +2,7 @@
 /**
  * main - prints main function
  *
- * Description: prints size of various types on the computer it is compiled and run on 
+ * Description: prints size of various types on the computer compiled 
  * Return: 0
 */
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	printf("Size of a char: %ld byte(s)\n", sizeof(c));
 	printf("Size of an int: %ld byte(s)\n", sizeof(i));
 	printf("Size of a long: %ld byte(s)\n", sizeof(li));
-	printf("Size of an long long: %ld byte(s)\n", sizeof(lli));
-	printf("Size of an float: %ld byte(s)\n", sizeof(f));
+	printf("Size of a long long: %ld byte(s)\n", sizeof(lli));
+	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
