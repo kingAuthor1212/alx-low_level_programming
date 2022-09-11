@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
- * print (Programming is like building a multilingual puzzle) using main Function
+ * main - print the string in the put function
+ *
+ * Discription: usingthe main funtion
+ * this program prints Programming is like building a multilingual puzzle
+ * Return: 0
  */
 int main(void)
 {
