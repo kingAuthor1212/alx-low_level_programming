@@ -2,6 +2,7 @@
 
 /**
  * main - prints _putchar with new line 
+ *
  * Return: alwawys 0
  */
 int main(void)
