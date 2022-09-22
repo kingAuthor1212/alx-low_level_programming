@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_number - Prints an integer
  *
@@ -6,7 +7,6 @@
  *
  * Return: nothing
  */
-
 void print_number(int n)
 {
 	if (n < 0)
