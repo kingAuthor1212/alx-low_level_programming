@@ -7,24 +7,25 @@
  * Return: If b is NULL or contains chars not 0 or 1 - 0.
  *         Otherwise - the converted number.
  */
-unsigned int binary_to_uint( const char *b)
+unsigned int binary_to_uint(const char *b)
 {
- unsigned int s = 1;
- unsigned int i=0;
- int n;
- unsigned int len;
+	unsigned int num = 0, mult = 1;
+	int len;
 
- len = strlen(b);
+	if (b == '\0')
+		return (0);
 
-  for (n = len-1; n >= 0; n--)
- {
-  if (b[n] != '0' && b[n] != '1')
-      return (0);
-    if (b[n] == '1')
-    {
-     i += s;
-     }
-    s *= 2;
-}
- return (i);
+	for (len = 0; b[len];)
+		len++;
+
+	for (len -= 1; len >= 0; len--)
+	{
+		if (b[len] != '0' && b[len] != '1')
+			return (0);
+
+		num += (b[len] - '0') * mult;
+		mult *= 2;
+	}
+
+	return (num);
 }
